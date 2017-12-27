@@ -1,0 +1,7 @@
+*-bak
+*-rescue.lib
+*-cache.lib
+*.bak
+tags
+fw/build/
+*.*~

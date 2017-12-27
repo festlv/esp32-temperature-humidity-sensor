@@ -1,0 +1,23 @@
+Refs,datasheet,footprint,value,MPN,Manufacturer,VPN,Vendor
+C1,,Capacitors_SMD:C_0603,1uF,,,,
+C2,,Capacitors_SMD:C_0603,1uF,,,,
+C3,,Capacitors_SMD:C_0805,22uF,,,,
+C4,,Capacitors_SMD:C_0603,0.1uF,,,,
+C5,,Capacitors_SMD:C_0603,0.1uF,,,,
+C6,,Capacitors_SMD:C_0603,1uF,,,,
+D1,,Diodes_SMD:D_0603,LED,,,,
+J1,,solder_bridges:SB_NC,SB_NC,,,,
+P1,,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,PWR,,,,
+P2,,pin_headers_1.27mm:Pin_Header_1.27mm_2x5,CONN_JTAG,,,,
+P3,,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,DBG,,,,
+R1,,Resistors_SMD:R_0603,47K,,,,
+R2,,Resistors_SMD:R_0603,100K,,,,
+R3,,Resistors_SMD:R_0603,10K,,,,
+R4,,Resistors_SMD:R_0603,10K,,,,
+R5,,Resistors_SMD:R_0603,220R,,,,
+R6,,Resistors_SMD:R_0603,2K2,,,,
+R7,,Resistors_SMD:R_0603,2K2,,,,
+SW1,,Buttons_Switches_SMD:SW_SPST_EVQPE1,BTN0,EVQ-PE104K,Panasonic,667-EVQ-PE104K,Mouser
+U1,,TO_SOT_Packages_SMD:SOT-23-5,MIC5504,MIC5504-3.3YM5-TR,Microchip,998-MIC5504-3.3YM5TR,Mouser
+U2,,ESP32-footprints-Lib:ESP32-WROOM,ESP32-WROOM,,,,
+U3,,Housings_DFN_QFN:DFN-6-1EP_3x3mm_Pitch0.95mm,Si7021,SI7021-A20-GM1R,Silicon Labs,634-SI7021-A20-GM1R,Mouser

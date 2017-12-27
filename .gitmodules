@@ -1,0 +1,9 @@
+[submodule "hw/ESP32-kiCAD-Footprints"]
+	path = hw/ESP32-kiCAD-Footprints
+	url = https://github.com/adamjvr/ESP32-kiCAD-Footprints.git
+[submodule "hw/hw/mysensors_symbols"]
+	path = hw/mysensors_symbols
+	url = https://github.com/mysensors-kicad/mysensors_symbols.git
+[submodule "fw/components/esp-request"]
+	path = fw/components/esp-request
+	url = https://github.com/tuanpmt/esp-request

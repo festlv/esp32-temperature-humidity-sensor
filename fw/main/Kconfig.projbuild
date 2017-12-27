@@ -1,0 +1,50 @@
+menu "Application settings"
+
+config WIFI_SSID
+    string "WiFi SSID"
+	default ""
+	help
+        "Wifi network SSID to connect to"
+
+config WIFI_PASSWORD
+    string "WiFi password"
+	default ""
+	help
+        "Wifi network password"
+
+config WAKEUP_INTERVAL 
+    int "Wakeup interval (s)"
+    default 900
+	help
+        "Wakeup interval in seconds"
+
+config WAKEUP_GPIO_NUM
+    int "Wakeup IO pin"
+    default 0
+
+config WAKEUP_GPIO_LEVEL
+    int "Wakeup IO logic level"
+    default 0
+    range 0 1
+
+config LED_GPIO_NUM
+    int "LED GPIO number"
+    range 0 33
+    default 32
+
+config INFLUXDB_BASE_URL
+    string "Influxb base url (without trailing /)"
+    default "http://192.168.66.59:8086"
+
+config INFLUXDB_USERNAME
+    string "Influxdb username" 
+    default ""
+
+config INFLUXDB_PASSWORD
+    string "Influxdb password" 
+    default ""
+
+config INFLUXDB_DATABASE
+    string "Influxdb database name"
+    default "espsensors"
+endmenu
